@@ -1,0 +1,37 @@
+body {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: bold;
+  background-color: #000000;
+  opacity: 0.8;
+  background: radial-gradient(#4c4f5a 6%, transparent 6%), #18191c;
+  background-position: 0 0, 25px 25px;
+  background-size: 25px 25px;
+}
+a:link {
+  color: rgb(168, 44, 65);
+}
+a:visited {
+  color: darkorchid;
+}
+a:hover {
+  color: cornsilk;
+}
+span a {
+  color: aqua;
+}
+.endpoints {
+  margin: 15px auto;
+  border: double;
+  padding: 15px;
+  font-size: x-large;
+  display: inline-block;
+}
+.endpoints::before {
+  content: "[";
+}
+.endpoints::after {
+  content: "]";
+}
